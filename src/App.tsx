@@ -1,8 +1,13 @@
 import "./App.css";
 import logo from "./logo.svg";
 import testThumbnail from "./testThumbnail.jpg";
+import car from "./car.webp";
+import cat from "./cat.webp";
+import { useNavigate } from "react-router-dom";
 
 function App() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="content-center inline-block">
@@ -10,40 +15,41 @@ function App() {
       </div>
       <div className="cards">
         <div className="card">
-          <img src={testThumbnail} />
+          <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
+
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
         <div className="card">
-          <img src={testThumbnail} />
+        <img onClick={() => { navigate("/game"); }} src={car} />
         </div>
       </div>
     </>
