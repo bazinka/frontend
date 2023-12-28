@@ -13,7 +13,7 @@ function Game() {
         height: "100%",
         width: "100%",
         overflow: "hidden"}}  
-            src="https://play.gamepix.com/car-city-adventure/embed" 
+        src="https://play.gamepix.com/car-city-adventure/embed?sid=33384" 
             allowFullScreen>
         </iframe>
     </>
